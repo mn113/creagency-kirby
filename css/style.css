@@ -1,0 +1,65 @@
+html {
+    color: #222;
+    font-family: Dosis, Helvetica, Arial, sans-serif;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+}
+
+header {
+    background: palegreen;
+    color: white;
+}
+
+header p {
+    font-family: 'Cabin Sketch';
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header, nav, main, footer {
+    xborder: 1px dashed red;
+    width: 100vw;
+    padding: 1em auto;
+}
+
+nav {
+    background: #222;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+}
+
+nav li {
+    list-style: none;
+    padding: 0.5em 2em;
+    align-content: space-around;
+    font-family: Bitter, Georgia, serif;
+}
+
+nav li a {
+
+}
+
+main {
+    min-height: 70vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Bitter, Georgia, serif;
+}
+
+footer {
+    background: #222;
+    color: palegreen;
+}
+footer p {
+    text-align: center;
+}
