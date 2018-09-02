@@ -1,11 +1,11 @@
 x masonry.js
 x header image
 x social icons
-/ kirby cms
+x kirby cms
+x contact form: formspring
 write about page
 brand slider & 4 testimonials
 12 content items (image, heading, text) for projects
-contact form: plugin?
 header logo?
 animations?
 media breakpoints

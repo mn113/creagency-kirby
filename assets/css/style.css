@@ -149,3 +149,17 @@ footer p {
 .grid-item--width2 img {
     max-width: 600px;
 }
+
+
+#Contact form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 480px;
+    margin: 2em auto 2em;
+    padding: 1em;
+}
+#Contact form textarea {
+    min-width: 20em;
+    min-height: 150px;
+    margin: 1em 0;
+}
