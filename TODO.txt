@@ -1,0 +1,11 @@
+masonry.js
+10-20 content items for works
+side-slider for case studies & brands
+contact form
+about blurb & images
+social icons
+header image
+link styles
+animations?
+header logo
+media breakpoints

@@ -63,3 +63,16 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* MASONRY */
+.grid > div {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 1em 1em 0;
+    padding: 0.4em 0.8em;
+}
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%; }
+/* 2 columns wide */
+.grid-item--width2 { width: 40%; }

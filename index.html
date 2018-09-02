@@ -32,11 +32,32 @@
             </nav>
             
             <main>
-                <h1>Heading 1</h1>
-                <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat. Tempor quis do anim ad ullamco laborum mollit sint amet eiusmod dolor commodo deserunt enim. Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.</p>
-
-                <h2>Heading 2</h2>
-                <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat. Tempor quis do anim ad ullamco laborum mollit sint amet eiusmod dolor commodo deserunt enim. Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.</p>
+                <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true" }'>
+                    <!-- .grid-sizer empty element, only used for element sizing -->
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item">
+                        <h1>Heading 1</h1>
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat.</p>
+                    </div>
+                    <div class="grid-item grid-item--width2">
+                        <h2>Heading 2</h2>
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat. Tempor quis do anim ad ullamco laborum mollit sint amet eiusmod dolor commodo deserunt enim. Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.</p>            
+                    </div>
+                    <div class="grid-item">
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h1>Heading 1</h1>
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat.</p>
+                    </div>
+                    <div class="grid-item grid-item--width2">
+                        <h2>Heading 2</h2>
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. Mollit cillum dolore proident dolore consequat. Tempor quis do anim ad ullamco laborum mollit sint amet eiusmod dolor commodo deserunt enim. Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.</p>            
+                    </div>
+                    <div class="grid-item">
+                        <p>Occaecat eu do elit do ut nisi quis laboris labore.</p>
+                    </div>
+                </div>
             </main>
 
             <footer>
@@ -44,6 +65,7 @@
             </footer>
         </div>
 
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
         <script src="js/site.js" async defer></script>
     </body>
 </html>
