@@ -1,5 +1,6 @@
-masonry.js
+x masonry.js
 10-20 content items for works
+lightweight cms
 side-slider for case studies & brands
 contact form
 about blurb & images
