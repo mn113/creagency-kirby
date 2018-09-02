@@ -1,12 +1,11 @@
 x masonry.js
-10-20 content items for works
-lightweight cms
-side-slider for case studies & brands
-contact form
-about blurb & images
-social icons
-header image
-link styles
+x header image
+x social icons
+/ kirby cms
+write about page
+brand slider & 4 testimonials
+12 content items (image, heading, text) for projects
+contact form: plugin?
+header logo?
 animations?
-header logo
 media breakpoints

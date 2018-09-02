@@ -1,0 +1,13 @@
+Title: Flibbet + Gibbet
+----
+Author: F. Gibbet
+----
+Description: Creative Agency
+----
+Copyright: © 2018–(date: Year)
+----
+facebook: http://facebook.com/
+----
+twitter: http://twitter.com/
+----
+insta: http:/instagram.com/
