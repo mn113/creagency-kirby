@@ -4,7 +4,7 @@ Author: F. Gibbet
 ----
 Description: Creative Agency
 ----
-Copyright: © 2018–(date: Year)
+Copyright: 2018
 ----
 facebook: http://facebook.com/
 ----

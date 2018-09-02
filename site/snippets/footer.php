@@ -4,7 +4,7 @@
         </footer>
     </div>
 
-    <script src="js/site.js" async defer></script>
+    <script src="assets/js/site.js" async defer></script>
     <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
 </body>
 </html>

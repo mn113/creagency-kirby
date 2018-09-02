@@ -13,11 +13,11 @@ if(isset($limit)) $projects = $projects->limit($limit);
     <?php foreach($projects as $project): ?>
 
         <div class="grid-item grid-item--width<?= $project->width() ?>">
-            <a href="<?= $project->url() ?>" class="showcase-link">
                 <img src="<?= $project->images()->first()->crop(400,400)->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
-                <h2><?= $project->title()->html() ?></h2>
+                <a href="<?= $project->url() ?>" class="showcase-link">
+                    <h2><?= $project->title()->html() ?></h2>
+                </a>
                 <p><?= $project->text() ?></p>
-            </a>
         </div>
 
     <?php endforeach ?>
