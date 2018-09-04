@@ -6,8 +6,9 @@ x contact form: formspring
 x 12 content items (image, heading, text) for projects
 x write about page
 x hero image for about page
-header logo?
-brand slider & 4 testimonials
+x width of wrap blocks
+header logo / site name
+/ brand slider & 4 testimonials
 4 category pages (2-4 products each) - products page with filter enabled
 nice-looking masonry layout
 media breakpoints

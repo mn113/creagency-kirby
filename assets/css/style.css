@@ -51,19 +51,22 @@ header span {
     margin-bottom: 1em;
 }
 header, nav, main, footer {
-    width: 100vw;
-    padding: 1em auto;
+    padding: 1em 0;
     flex-shrink: 0;
 }
 header aside {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 5px;
 }
-header aside a {
+aside {
+    display: flex;
+    align-items: center;
+}
+aside a {
     color: white;
 }
-header aside a:hover {
+aside a:hover {
     color:salmon;
 }
 
@@ -92,11 +95,12 @@ nav li.active a,
 nav a:hover
 {
     background: #66cc99;
+    border-radius: 4px;
     color: black;
     cursor: pointer;
 }
 nav li a {
-    padding: 0.5em 2em;
+    padding: 0.5em 2.5em;
     background: #222;
     color: white;
     text-decoration: none;
@@ -110,7 +114,7 @@ nav li a:hover {
 main {
     background: white;
     min-height: 70vh;
-    padding: 2em auto;
+    padding: 2em;
     flex-grow: 1;
 }
 
@@ -118,12 +122,31 @@ h1,h2,h3,h4,h5,h6 {
     font-family: Bitter, Georgia, serif;
 }
 
+
+/**********/
+/* FOOTER */
+/**********/
 footer {
     background: #222;
     color: #66cc99;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 footer p {
     text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    background: #66cc99;
+    color: #222;
+}
+footer > * {
+    width: 20vw;
 }
 
 
@@ -197,6 +220,9 @@ footer p {
 /**************/
 /* ABOUT PAGE */
 /**************/
+#About main {
+    padding-top: 0;
+}
 #About .hero {
     width: 100vw;
     min-height: 300px;
@@ -210,6 +236,7 @@ footer p {
     align-items: center;
     justify-content: center;
     color: white;
+    margin: 0 -2em;
 }
 
 #About .hero h1 {

@@ -1,9 +1,3 @@
 Title: Clients
-
 ----
-
-Intro: This page demonstrates...
-
-----
-
 Text: These are some of the clients we have worked with:

@@ -1,6 +1,8 @@
         <footer>
             <p>Copyright &copy; <?= html::decode($site->copyright()->kirbytext()) ?></p>
             <p>Made with <a href="http://getkirby.com/">Kirby</a></p>
+            <p><a href="#">Sitemap</a></p>
+            <?php snippet('socialicons') ?>
         </footer>
     </div>
 

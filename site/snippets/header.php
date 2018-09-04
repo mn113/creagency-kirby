@@ -20,11 +20,6 @@
             <header>
                 <p><a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></p>
                 <span>Creative Agency</span>
-                <aside>
-                    <a href="#"><ion-icon size="large" name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon size="large" name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon size="large" name="mail"></ion-icon></a>
-                </aside>
+                <?php snippet('socialicons') ?>
             </header>
             <?php snippet('menu') ?>
