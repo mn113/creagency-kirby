@@ -4,11 +4,11 @@ x social icons
 x kirby cms
 x contact form: formspring
 x 12 content items (image, heading, text) for projects
-write about page
-brand slider & 4 testimonials
-hero images for about & services
+x write about page
+x hero image for about page
 header logo?
-media breakpoints
+brand slider & 4 testimonials
+4 category pages (2-4 products each) - products page with filter enabled
 nice-looking masonry layout
-4 category pages (2-4 products each) - products with filter
-product page template
+media breakpoints
+individual project page template

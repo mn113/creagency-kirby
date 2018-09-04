@@ -4,10 +4,6 @@
 
         <div class="wrap">
             <h1><?= $page->title()->html() ?></h1>
-            <div class="intro text">
-                <?= $page->text()->kirbytext() ?>
-            </div>
-            <hr />
         </div>
             
         <div class="wrap wide">    

@@ -1,5 +1,7 @@
 Title: About
 ----
-Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+Heading: A design studio for the 21st Century
 ----
-Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+Text: At Flibbet + Gibbet we care deeply about detail, impact, and matching our solution to the client's needs.
+Whether we are working out of Amsterdam, New York or Tokyo, our commitment to technical excellence and originality never fades.
+Go deeper into our site to learn about our exploits in (link: servives/web-design text: Web Design), (link: some/page text: Graphic Design), (link: some/page text: Product Design) and (link: some/page text: Music Videos).
