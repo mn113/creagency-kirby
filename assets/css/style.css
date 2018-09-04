@@ -127,9 +127,9 @@ footer p {
 }
 
 
-/***********/
-/* MASONRY */
-/***********/
+/***************************************/
+/* MASONRY - SERVICES & PROJECTS PAGES */
+/***************************************/
 .grid {
     margin: 2em;
     xborder: 1px dotted fuchsia;
@@ -169,12 +169,23 @@ footer p {
 /****************/
 /* CONTACT PAGE */
 /****************/
+#Contact .side-by-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+#Contact img {
+    width: 35vw;
+    margin: 2em;
+    order: 1;
+}
 #Contact form {
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 480px;
-    margin: 2em auto 2em;
+    margin: 2em;
     padding: 1em;
+    order: 2;
 }
 #Contact form textarea {
     min-width: 20em;
@@ -182,6 +193,10 @@ footer p {
     margin: 1em 0;
 }
 
+
+/**************/
+/* ABOUT PAGE */
+/**************/
 #About .hero {
     width: 100vw;
     min-height: 300px;

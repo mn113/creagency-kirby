@@ -2,7 +2,7 @@
 
     <main class="main" role="main">
         
-        <div class="wrap wide">
+        <div class="wrap wide side-by-side">
 
             <form action="https://formspree.io/recyclebing@gmail.com" method="POST">
                 <h2>Contact Us</h2>
@@ -30,7 +30,9 @@
                 <br>
                 <input type="submit" value="Send">
             </form>
-            
+
+            <img src="<?= $page->images()->first()->url() ?>">
+
         </div>
         
     </main>
