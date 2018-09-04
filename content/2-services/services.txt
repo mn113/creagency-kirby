@@ -1,20 +1,3 @@
 Title: Services
 ----
-Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
-----
-Text:
-## Graphic Design
-image(wireframing.png)
-Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. 
-
-## Web Design
-image(wireframing.png)
-Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.
-
-## Product Design
-image(wireframing.png)
-Occaecat eu do elit do ut nisi quis laboris labore. Dolor et consequat dolore adipisicing quis aute sit veniam enim voluptate ipsum non nostrud. 
-
-## Music Videos
-image(wireframing.png)
-Sint qui adipisicing occaecat aliqua. Do occaecat consequat in eiusmod ipsum dolor laborum quis sit ex. Duis sit exercitation dolore irure voluptate incididunt sit elit tempor aute eu ipsum fugiat.
+Intro: Since 2014 we have offered Web and Graphic Design services, providing online and print solutions to a range of businesses. We pride ourselves on coming up with creative approaches for a wide range of problems, to meet the client's need. In 2017 we expanded our business, moving into the sphere of product design and also music videos. We love the diversity of challenges in these areas, and the talented people it brings us into contact with.

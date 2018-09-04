@@ -6,6 +6,9 @@ x contact form: formspring
 x 12 content items (image, heading, text) for projects
 write about page
 brand slider & 4 testimonials
+hero images for about & services
 header logo?
-animations?
 media breakpoints
+nice-looking masonry layout
+4 category pages (2-4 products each) - products with filter
+product page template

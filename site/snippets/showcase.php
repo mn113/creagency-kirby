@@ -13,11 +13,11 @@ if(isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
     <?php foreach($projects as $project): ?>
 
         <div class="grid-item grid-item--width<?= $project->width() ?>">
-                <img src="<?= $project->images()->first()->crop(400,400)->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
-                <a href="#" class="showcase-link">
-                    <h2><?= $project->title()->html() ?> <span><?= $project->year() ?></span></h2>
-                </a>
-                <p><?= $project->text() ?></p>
+            <img src="<?= $project->images()->first()->crop(400,400)->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
+            <a href="#" class="showcase-link">
+                <h2><?= $project->title()->html() ?> <span><?= $project->year() ?></span></h2>
+            </a>
+            <p><?= $project->text() ?></p>
         </div>
 
     <?php endforeach ?>
