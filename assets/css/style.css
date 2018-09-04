@@ -14,23 +14,30 @@ html {
     align-items: stretch;
 }
 
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/********************/
+/* GRAPHICAL HEADER */
+/********************/
 header {
     background: palegreen url(../img/green-trees.png) bottom left repeat-x;
     color: white;
 }
-
 header p {
     font-family: 'Cabin Sketch';
     font-size: 2.8em;
     text-align: center;
     margin: 0.4em auto;
 }
-
 header a {
     color: white;
     text-decoration: none;
 }
-
 header span {
     display: block;
     font-family: Dosis, Helvetica, Arial, sans-serif;
@@ -40,19 +47,16 @@ header span {
     text-transform: uppercase;
     margin-bottom: 1em;
 }
-
 header, nav, main, footer {
     width: 100vw;
     padding: 1em auto;
     flex-shrink: 0;
 }
-
 header aside {
     position: absolute;
     top: 0;
     right: 0;
 }
-
 header aside a {
     color: white;
 }
@@ -60,11 +64,14 @@ header aside a:hover {
     color:salmon;
 }
 
+
+/************/
+/* NAV MENU */
+/************/
 nav {
     background: #222;
     color: white;
 }
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -72,7 +79,6 @@ nav ul {
     justify-content: space-around;
     margin: 8px auto;
 }
-
 nav li {
     padding: 0;
     list-style: none;
@@ -86,7 +92,6 @@ nav a:hover
     color: black;
     cursor: pointer;
 }
-
 nav li a {
     padding: 0.5em 2em;
     background: #222;
@@ -97,6 +102,7 @@ nav li a {
 nav li a:hover {
     
 }
+
 
 main {
     min-height: 70vh;
@@ -110,22 +116,19 @@ h1,h2,h3,h4,h5,h6 {
 
 footer {
     background: #222;
-    color: palegreen;
+    color: #66cc99;
 }
 footer p {
     text-align: center;
 }
 
-.cf:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
+/***********/
 /* MASONRY */
+/***********/
 .grid {
     margin: 2em;
-    border: 1px dotted fuchsia;
+    xborder: 1px dotted fuchsia;
 }
 .grid > div {
     border: 1px solid #ddd;
@@ -144,13 +147,24 @@ footer p {
 
 .grid-item img,
 .grid-item--width1 img {
-    max-width: 300px;
+    max-width: 250px;
 }
 .grid-item--width2 img {
-    max-width: 600px;
+    max-width: 500px;
+}
+.grid-item h2 span {
+    color: #bbb;
+    font-size: 0.8em;
+}
+.grid-item a,
+.grid-item a:hover {
+    text-decoration: none;
+    color: #66cc99;
 }
 
-
+/****************/
+/* CONTACT PAGE */
+/****************/
 #Contact form {
     border: 1px solid #ccc;
     border-radius: 10px;

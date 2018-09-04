@@ -3,9 +3,9 @@ x header image
 x social icons
 x kirby cms
 x contact form: formspring
+x 12 content items (image, heading, text) for projects
 write about page
 brand slider & 4 testimonials
-12 content items (image, heading, text) for projects
 header logo?
 animations?
 media breakpoints

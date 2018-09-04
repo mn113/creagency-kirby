@@ -2,7 +2,7 @@
 
 $projects = page('projects')->children()->visible();
 
-if(isset($limit)) $projects = $projects->limit($limit);
+if(isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
 
 ?>
 
@@ -14,8 +14,8 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
         <div class="grid-item grid-item--width<?= $project->width() ?>">
                 <img src="<?= $project->images()->first()->crop(400,400)->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
-                <a href="<?= $project->url() ?>" class="showcase-link">
-                    <h2><?= $project->title()->html() ?></h2>
+                <a href="#" class="showcase-link">
+                    <h2><?= $project->title()->html() ?> <span><?= $project->year() ?></span></h2>
                 </a>
                 <p><?= $project->text() ?></p>
         </div>
