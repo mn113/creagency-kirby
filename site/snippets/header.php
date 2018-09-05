@@ -16,7 +16,7 @@
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="wrap">
+        <div id="page">
             <header>
                 <p><a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></p>
                 <span>Creative Agency</span>
