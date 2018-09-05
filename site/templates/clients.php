@@ -10,7 +10,13 @@
             <?php snippet('clientlogos') ?>
 
             <section class="testimonials">
-
+                <h2>Testimonials</h2>
+                <?php foreach($page->testimonials()->toStructure() as $test): ?>
+                <blockquote>
+                    <p><?= $test->words()->kirbytext() ?></p>
+                    <span class="name"><?= $test->name()->html() ?></span>
+                </blockquote>
+                <?php endforeach ?>
             </section>
         </div>
       
