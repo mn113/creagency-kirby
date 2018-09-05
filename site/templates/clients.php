@@ -11,12 +11,14 @@
 
             <section class="testimonials">
                 <h2>Testimonials</h2>
+                <div>
                 <?php foreach($page->testimonials()->toStructure() as $test): ?>
                 <blockquote>
                     <p><?= $test->words()->kirbytext() ?></p>
                     <span class="name"><?= $test->name()->html() ?></span>
                 </blockquote>
                 <?php endforeach ?>
+                </div>
             </section>
         </div>
       
