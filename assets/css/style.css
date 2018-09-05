@@ -155,22 +155,23 @@ footer > * {
 /***************************************/
 .grid {
     margin: 2em;
-    xborder: 1px dotted fuchsia;
 }
 .grid > div {
+    float: left;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin: 0 1em 1em 0;
     padding: 0.8em;
+    height: 430px;
     overflow: hidden;
 }
-/* fluid 5 columns */
+/* fluid 4 columns */
 .grid-sizer { display: none; }
 .grid-sizer,
 .grid-item,
-.grid-item--width1 { width: 20%; }
+.grid-item--width1 { width: 22%; }
 /* 2 columns wide */
-.grid-item--width2 { width: 40%; }
+.grid-item--width2 { width: 44%; }
 
 .grid-item img,
 .grid-item--width1 img {

@@ -23,7 +23,7 @@
                 </div>
             <?php endforeach ?>
         </div>
-        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="js/masonry-init.js" defer></script>
 
     </main>
 

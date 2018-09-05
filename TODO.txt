@@ -9,7 +9,7 @@ x hero image for about page
 x width of wrap blocks
 x brand slider & 4 testimonials
 x 4 category pages (2-4 products each) - products page with filter enabled
-nice-looking masonry layout
+x nice-looking masonry layout
 header logo / site name
 media breakpoints
 individual project page template

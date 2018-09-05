@@ -8,7 +8,7 @@ if (isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
 
 ?>
 
-<div class="grid showcase cf" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true", "gutter": 0 }'>
+<div class="grid showcase cf" data-xmasonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true", "gutter": 0 }'>
     <!-- .grid-sizer empty element, only used for element sizing -->
     <div class="grid-sizer"></div>
 
@@ -24,4 +24,3 @@ if (isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
 
     <?php endforeach ?>
 </div>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
