@@ -17,7 +17,7 @@
             <div class="grid-sizer"></div>
             <?php foreach($page->children()->visible() as $service): ?>
                 <div class="grid-item">
-                    <h2><?= $service->title()->html() ?></h2>
+                    <a href="projects/category:<?= explode(" ", $service->title())[0] ?>"><h2><?= $service->title()->html() ?></h2></a>
                     <img src="<?= $service->images()->first()->crop(300,200)->url() ?>" alt="<?= $service->title()->html() ?>" class="showcase-image" />
                     <p><?= $service->text()->html() ?></p>
                 </div>

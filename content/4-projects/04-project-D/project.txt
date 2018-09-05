@@ -2,6 +2,8 @@ Title: Project D
 ----
 Year: 2016
 ----
+Category: Product
+----
 Width: 1
 ----
 Text: Personal development out of scope, nor run it up the flagpole, for idea shower. Face time globalize, yet today shall be a cloudy day, thanks to blue sky thinking, we can now deploy our new ui to the cloud.

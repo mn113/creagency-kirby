@@ -2,7 +2,9 @@
 
 $projects = page('projects')->children()->visible();
 
-if(isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
+if (null !== param('category')) $projects = $projects->filterBy('category', param('category'));
+
+if (isset($limit)) $projects = $projects->limit($limit)->sortBy('year', 'desc');
 
 ?>
 

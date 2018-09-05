@@ -6,4 +6,4 @@ Text: At Flibbet + Gibbet we care deeply about detail, impact, and matching our 
 
 Whether we are working out of Amsterdam, New York or Tokyo, our commitment to technical excellence and originality never fades.
 
-Go deeper into our site to learn about our exploits in (link: servives/web-design text: Web Design), (link: some/page text: Graphic Design), (link: some/page text: Product Design) and (link: some/page text: Music Videos).
+Go deeper into our site to learn about our exploits in (link: projects/category:Web text: Web Design), (link: projects/category:Graphic text: Graphic Design), (link: projects/category:Product text: Product Design) and (link: projects/category:Music text: Music Videos).

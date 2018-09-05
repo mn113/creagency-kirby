@@ -3,7 +3,7 @@
     <main class="main" role="main">
 
         <div class="wrap">
-            <h1><?= $page->title()->html() ?></h1>
+            <h1><?= param('category') ?> <?= $page->title()->html() ?></h1>
         </div>
             
         <div class="wrap wide">    
